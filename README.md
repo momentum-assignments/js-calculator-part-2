@@ -7,8 +7,8 @@
 
 Now that we have captured elements on the page and are able to console log their contents, the next step is to create the effects of a caculator display 
 by adding and changing elements on the DOM.
-- First make the values on the buttons appear in the display
-- Next make clicking the `=` sign result in the answer being shown in the display.
+- First make the values on the buttons appear in the display when the corresponding number is clicked.#️⃣
+- Next make clicking the `=` sign result in the answer being shown in the display.🟰
 
 **Hint**: One way of evaluating mathematical expressions is [eval](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval). Another way is by using the [math.js](http://mathjs.org/) library.
 
