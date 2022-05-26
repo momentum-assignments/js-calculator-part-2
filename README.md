@@ -14,7 +14,7 @@ by adding and changing elements on the DOM.
 
 _Caution🚨 you might find examples that use the onClick property, but there are a couple of reasons not to:_
 - If you use it, you won’t get to learn how to respond to any of the many other kinds of events (like mouseover and keyboard events)  
-- Event listeners are generally preferred, and you can read more about why here.  
+- Event listeners are generally preferred, and you can read more about why [here](https://stackoverflow.com/questions/6348494/addeventlistener-vs-onclick).  
 
 You _do not_ have to stop users from entering bad input. For instance, if a user enters `2.1.0 -+ 7`, you can let them enter that and do not have to show any special output when they try to evaluate it using the equals button. It is fine if you do prevent them from entering bad input, though.
 
