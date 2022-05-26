@@ -12,8 +12,11 @@ by adding and changing elements on the DOM.
 
 **Hint**: One way of evaluating mathematical expressions is [eval](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval). Another way is by using the [math.js](http://mathjs.org/) library.
 
+_Caution🚨 you might find examples that use the onClick property, but there are a couple of reasons not to:_
 
-Some 
+    - If you use it, you won’t get to learn how to respond to any of the many other kinds of events (like mouseover and keyboard events)
+    - Event listeners are generally preferred, and you can read more about why here.
+
 You _do not_ have to stop users from entering bad input. For instance, if a user enters `2.1.0 -+ 7`, you can let them enter that and do not have to show any special output when they try to evaluate it using the equals button. It is fine if you do prevent them from entering bad input, though.
 
 You do not have to allow for chaining long calculations (like `2 + 4 * 7 - 2`), but you can.
